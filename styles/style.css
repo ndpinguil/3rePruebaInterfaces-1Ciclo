@@ -21,20 +21,27 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
   }
 
   .sign {
-    width: 300px;
-    height: 300px;
+    /*width: 300px;
+    height: 300px;*/
     background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 4px );
--webkit-backdrop-filter: blur( 4px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     transition: all 1s ease-in-out;
   }
+
+.imagenes{
+  display: flex;
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+}
 
   .sign:hover{
 scale: 1.1;
@@ -45,3 +52,4 @@ transition: all 1s ease-in-out;
     font-size: 30px;
 
   }
+
